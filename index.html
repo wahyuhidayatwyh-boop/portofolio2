@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio — Website Portofolio Modern</title>
+  <meta name="description" content="Website portofolio modern untuk menampilkan profil, keahlian, proyek unggulan, testimoni, dan kontak.">
+  <meta name="keywords" content="portfolio, portofolio, web developer, ui ux, frontend, personal website">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center flex-wrap">
+          <div class="d-flex align-items-center me-4">
+            <i class="bi bi-envelope"></i>
+            <a href="mailto:hello@portofolio.dev" class="ms-2">hello@portofolio.dev</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="bi bi-phone"></i>
+            <span class="ms-2">+62 812 3456 7890</span>
+          </div>
+        </div>
+        <div class="languages d-none d-md-flex align-items-center">
+          <ul class="m-0 p-0">
+            <li>Available for freelance</li>
+            <li><a href="#contact" class="ms-2">Hire me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="branding d-flex align-items-cente">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="#hero" class="logo d-flex align-items-center me-auto me-xl-0">
+          <img src="assets/img/logo.png" alt="Logo portfolio">
+          <h1 class="sitename">Portfolio</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-book-a-table d-none d-xl-block" href="#contact">Let's Work Together</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="hero" class="portfolio-hero section dark-background">
+      <img src="assets/img/portfolio-visual.svg" alt="Background portfolio abstrak" data-aos="fade-in">
+      <div class="container hero-content">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="hero-badge" data-aos="fade-up">Frontend Developer · UI/UX Enthusiast</span>
+            <h2 data-aos="fade-up" data-aos-delay="100">Membangun website portofolio yang modern, cepat, dan berfokus pada hasil.</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Saya membantu personal brand, freelancer, dan bisnis kecil menampilkan karya terbaik lewat pengalaman digital yang rapi, responsif, dan mudah diingat.</p>
+            <div class="hero-actions d-flex flex-wrap gap-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+              <a href="#projects" class="cta-btn">Lihat Proyek</a>
+              <a href="#contact" class="cta-btn ghost">Hubungi Saya</a>
+            </div>
+
+            <div class="hero-stats row g-3 mt-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="col-sm-4">
+                <div class="stat-card">
+                  <strong>3+</strong>
+                  <span>Tahun pengalaman</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="stat-card">
+                  <strong>20+</strong>
+                  <span>Proyek selesai</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="stat-card">
+                  <strong>100%</strong>
+                  <span>Responsif & rapi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="hero-card-image">
+                <img src="assets/img/portfolio-visual.svg" alt="Ilustrasi portofolio abstrak" class="img-fluid">
+                <span class="hero-card-pill">Available for remote work</span>
+              </div>
+              <div class="hero-card-body">
+                <h3>Creative Digital Builder</h3>
+                <p>Desain antarmuka, pengembangan frontend, dan storytelling visual untuk portofolio yang terlihat premium.</p>
+                <div class="hero-card-list">
+                  <span><i class="bi bi-check2-circle"></i> UI/UX</span>
+                  <span><i class="bi bi-check2-circle"></i> Frontend</span>
+                  <span><i class="bi bi-check2-circle"></i> Brand Story</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section portfolio-about">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Profil Singkat</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-image-frame">
+              <img src="assets/img/about.jpg" class="img-fluid rounded-4" alt="Tentang saya">
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-copy">
+              <h3>Saya merancang website yang membantu orang memahami nilai Anda dalam hitungan detik.</h3>
+              <p class="fst-italic">Fokus saya adalah membuat tampilan yang bersih, navigasi yang jelas, dan pengalaman pengguna yang terasa profesional di setiap perangkat.</p>
+              <p>Dengan pendekatan yang seimbang antara desain dan fungsionalitas, saya membangun portofolio yang tidak hanya enak dilihat, tetapi juga efektif untuk memperkuat personal branding dan mempercepat keputusan klien.</p>
+
+              <div class="row g-3 mt-4">
+                <div class="col-md-6">
+                  <div class="feature-card">
+                    <i class="bi bi-palette2"></i>
+                    <div>
+                      <h4>Desain modern</h4>
+                      <p>Visual bersih, konsisten, dan relevan dengan identitas personal Anda.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card">
+                    <i class="bi bi-lightning-charge"></i>
+                    <div>
+                      <h4>Performa cepat</h4>
+                      <p>Struktur ringan, mobile-first, dan siap dipakai untuk presentasi profesional.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card">
+                    <i class="bi bi-phone"></i>
+                    <div>
+                      <h4>Responsif penuh</h4>
+                      <p>Tampil rapi di desktop, tablet, dan ponsel tanpa kompromi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card">
+                    <i class="bi bi-rocket-takeoff"></i>
+                    <div>
+                      <h4>Siap berkembang</h4>
+                      <p>Mudah diperluas untuk blog, detail proyek, atau integrasi formulir lanjutan.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section portfolio-services light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Layanan Utama</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-card">
+              <i class="bi bi-layout-text-window-reverse"></i>
+              <h3>UI Design</h3>
+              <p>Merancang tampilan yang elegan, mudah dipahami, dan kuat secara visual.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <div class="service-card">
+              <i class="bi bi-code-slash"></i>
+              <h3>Frontend Dev</h3>
+              <p>Membangun website cepat, terstruktur, dan siap digunakan di berbagai device.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-card">
+              <i class="bi bi-megaphone"></i>
+              <h3>Brand Story</h3>
+              <p>Mengubah keahlian dan pengalaman menjadi narasi yang meyakinkan.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="service-card">
+              <i class="bi bi-search"></i>
+              <h3>SEO Basics</h3>
+              <p>Struktur konten yang membantu website lebih mudah ditemukan dan dipahami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section portfolio-skills">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Keahlian & Proses Kerja</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="skills-panel">
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>HTML / CSS / Bootstrap</span>
+                  <span>95%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>JavaScript / Interaksi</span>
+                  <span>88%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>UI/UX & Layout System</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="d-flex justify-content-between">
+                  <span>Content Strategy</span>
+                  <span>82%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 82%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="timeline-panel">
+              <div class="timeline-item">
+                <span>01</span>
+                <div>
+                  <h4>Discovery</h4>
+                  <p>Memahami tujuan, audiens, dan pesan utama sebelum desain dimulai.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span>02</span>
+                <div>
+                  <h4>Design System</h4>
+                  <p>Menyusun struktur visual, warna, tipografi, dan komponen yang konsisten.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span>03</span>
+                <div>
+                  <h4>Build & Refine</h4>
+                  <p>Mengimplementasikan desain dengan hasil yang rapi, adaptif, dan terukur.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span>04</span>
+                <div>
+                  <h4>Launch Ready</h4>
+                  <p>Menyiapkan halaman agar siap dipresentasikan ke klien, recruiter, atau audiens publik.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section portfolio-projects light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>Proyek Unggulan</p>
+      </div>
+
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project landing page abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Landing Page</span>
+                <h3>Website promosi produk dengan alur CTA yang jelas.</h3>
+                <p>Dirancang untuk meningkatkan konversi dengan hierarki konten yang sederhana.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project branding abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Brand Website</span>
+                <h3>Identitas digital yang konsisten di seluruh halaman.</h3>
+                <p>Menonjolkan nilai merek lewat tone visual yang hangat dan meyakinkan.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project portfolio abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Portfolio Hub</span>
+                <h3>Halaman portofolio yang menampilkan karya secara terstruktur.</h3>
+                <p>Fokus pada pengalaman membaca dan presentasi proyek yang lebih profesional.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project dashboard abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Dashboard UI</span>
+                <h3>Antarmuka data dengan tampilan yang mudah dipindai.</h3>
+                <p>Mengutamakan keterbacaan, konsistensi warna, dan fokus pada informasi penting.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project content abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Content Page</span>
+                <h3>Struktur artikel yang nyaman dibaca dan mudah di-scan.</h3>
+                <p>Rangka konten dirancang agar pengunjung cepat menemukan poin utama.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+            <article class="project-card">
+              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox project-card-image" data-gallery="portfolio-gallery">
+                <img src="assets/img/portfolio-visual.svg" alt="Project showcase abstrak">
+              </a>
+              <div class="project-card-body">
+                <span>Showcase</span>
+                <h3>Tampilan showcase untuk presentasi karya dan layanan unggulan.</h3>
+                <p>Menggabungkan visual yang bersih dengan CTA yang terarah.</p>
+                <a href="starter-page.html" class="project-link">Lihat studi kasus <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section portfolio-testimonials">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Kata Mereka</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper portfolio-testimonials-slider">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 24
+                },
+                "992": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 24
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 24
+                }
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p><i class="bi bi-quote quote-icon-left"></i><span>Hasil akhirnya bersih, cepat, dan sangat mudah dipresentasikan ke klien. Proses kerja juga rapi dan komunikatif.</span><i class="bi bi-quote quote-icon-right"></i></p>
+                <div class="testimonial-author">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" alt="Testimonial client 1">
+                  <div>
+                    <h3>Raka Pratama</h3>
+                    <h4>Founder Startup</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p><i class="bi bi-quote quote-icon-left"></i><span>Website portofolio kami jadi jauh lebih meyakinkan. Navigasinya jelas dan tampilannya terlihat premium di mobile.</span><i class="bi bi-quote quote-icon-right"></i></p>
+                <div class="testimonial-author">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" alt="Testimonial client 2">
+                  <div>
+                    <h3>Dina Aulia</h3>
+                    <h4>Creative Director</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p><i class="bi bi-quote quote-icon-left"></i><span>Struktur kontennya membantu audiens memahami layanan kami lebih cepat. Visualnya terasa modern dan profesional.</span><i class="bi bi-quote quote-icon-right"></i></p>
+                <div class="testimonial-author">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" alt="Testimonial client 3">
+                  <div>
+                    <h3>Fajar Mahendra</h3>
+                    <h4>Product Manager</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p><i class="bi bi-quote quote-icon-left"></i><span>Perhatian terhadap detail terlihat di setiap section. Hasil akhirnya terasa seperti brand yang matang.</span><i class="bi bi-quote quote-icon-right"></i></p>
+                <div class="testimonial-author">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" alt="Testimonial client 4">
+                  <div>
+                    <h3>Nadia Putri</h3>
+                    <h4>Marketing Lead</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p><i class="bi bi-quote quote-icon-left"></i><span>Responsive-nya solid. Di layar kecil tetap nyaman dilihat dan CTA utama tetap terlihat jelas.</span><i class="bi bi-quote quote-icon-right"></i></p>
+                <div class="testimonial-author">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" alt="Testimonial client 5">
+                  <div>
+                    <h3>Ardiansyah</h3>
+                    <h4>Independent Consultant</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section portfolio-contact light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Siap Berkolaborasi</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="contact-stack">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Jakarta, Indonesia</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="250">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+62 812 3456 7890</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>hello@portofolio.dev</p>
+                </div>
+              </div>
+
+              <div class="contact-note" data-aos="fade-up" data-aos-delay="350">
+                <h4>Saya terbuka untuk:</h4>
+                <ul>
+                  <li><i class="bi bi-check2-circle"></i> Website portofolio pribadi</li>
+                  <li><i class="bi bi-check2-circle"></i> Landing page produk / event</li>
+                  <li><i class="bi bi-check2-circle"></i> Redesign tampilan website lama</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form portfolio-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Email Anda" required>
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Ceritakan kebutuhan proyek Anda" required></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Pesan Anda telah terkirim. Saya akan membalas secepatnya.</div>
+                  <button type="submit">Kirim Pesan</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="#hero" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="Logo portfolio">
+            <span class="sitename">Portfolio</span>
+          </a>
+          <p>Website portofolio yang dirancang untuk menampilkan identitas, keahlian, dan proyek unggulan Anda secara profesional.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">UI Design</a></li>
+            <li><a href="#services">Frontend Dev</a></li>
+            <li><a href="#services">Brand Story</a></li>
+            <li><a href="#services">SEO Basics</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Quick Note</h4>
+          <p>Ingin tampilan yang lebih personal? Ganti teks, foto, dan link sosial sesuai identitas Anda lalu website ini siap dipakai.</p>
+          <div class="footer-cta">
+            <a href="#contact" class="btn-book-a-table d-inline-flex">Start a Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
